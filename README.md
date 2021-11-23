@@ -1,6 +1,9 @@
 # Matlab-Finger-Counter
 Uses a specified range of pixel values to find a hand in an image or video, and a blob analysis is then used to count the number of fingers that are being held up.  
 
+The FingerCounter.m file is used to run the program.  The "HandVid.mov" is a sample video that shows the finger counter in action. 
+How the video is displayed can be played around with (e.g. showing the image in binary or displaying the centroids) to see how the finger counter works internally.  
+
 Takes in image or video 
 --> finds the hand using YCbCr color space 
 --> converts to a binary image 
