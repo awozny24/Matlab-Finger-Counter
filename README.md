@@ -22,4 +22,4 @@ Matlab centroid functions are used to find the center of the palm of the hand.
 A large hole is made in the hand (the pixel values within a certain radius are turned from 1 to 0), leaving only the fingers and removing the palm of the hand.
 New centroids in the image can be determined, made up of however many fingers are held up, as well as the wrist and possibly other additional extraneous centroids.
 The extraneous centroids are determined based on how large the corresponding blob is. Too small a blob size indicates this is extraneous and not a finger.
-all this information is then used to count the number of centroids that are fingers in the image.  
+All this information is then used to count the number of centroids that are fingers in the image.  
